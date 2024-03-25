@@ -1,0 +1,49 @@
+body {
+  background-image: url(images/bacground\ color.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.working-sec {
+  height: 500px;
+}
+.OUR-PROMISE {
+  height: 400px;
+  margin-top: 100px;
+  background-color: rgba(255, 0, 0, 0.495);
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+  .working-sec {
+    height: 700px;
+  }
+  .working-sec .working-cont img {
+    max-height: 60%;
+    justify-content: center;
+  }
+  .x-x-xxx {
+    margin-top: 220px;
+    width: 92%;
+    justify-content: center;
+  }
+  .about img {
+    height: 280px;
+    width: 100;
+  }
+  .about .col-7 {
+    width: 100%;
+  }
+
+  .imgreta {
+    height: 280px;
+    width: 100%;
+  }
+  .imgreta img {
+    height: 100%;
+    margin-bottom: 30px;
+    height: 100%;
+  }
+}
